@@ -10,6 +10,7 @@
     "react-nativescript-navigation": "^4.0.0"
   },
   "devDependencies": {
+    "@nativescript/android": "8.5.0",
     "@nativescript/types": "~8.5.0",
     "@nativescript/webpack": "~5.0.14",
     "@types/react": "npm:types-react-without-jsx-intrinsics@^16.14.30",
