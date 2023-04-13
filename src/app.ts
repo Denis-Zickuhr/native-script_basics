@@ -9,6 +9,7 @@ import { MainStack } from './components/MainStack';
 // Controls react-nativescript log verbosity.
 // - true: all logs;
 // - false: only error logs.
+// @ts-ignore
 Object.defineProperty(global, '__DEV__', { value: false });
 
 ReactNativeScript.start(React.createElement(MainStack, {}, null));
